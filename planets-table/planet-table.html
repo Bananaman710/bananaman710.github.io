@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jason Goddard">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- Wrap the top-level heading in a header element -->
+        <header>
+            <h1>Planets Data</h1>
+        </header>
+        <main>
+        <!-- Add a main element to contain the table -->
+            <table>
+                <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+                </caption>
+            <colgroup>
+                <col span="2">&nbsp;</col>
+                <col>Name</col>
+                <col>Mass (10<sup>24</sup>kg)</col>
+                <col>Diameter (km)</col>
+                <col>Density (kg/m<sup>3</sup>)</col>
+                <col>Gravity (m/s<sup>2</sup>)</col>
+                <col>Length of day (hours)</col>
+                <col>Distance from Sun (10<sup>6</sup>km)</col>
+                <col>Mean temperature (°C)</col>
+                <col>Number of moons</col>
+                <col>Notes</col>
+                <col>Image</col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th span="2"></th>
+                    <th>Name</th>
+                    <th>Mass (10<sup>24</sup>kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="4"; colspan="2">Terrestial planets</td>
+                <td>Mercury</td>
+                <td>0.330</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Closest to the Sun</td>
+                <td><img><mercury class="jpg"></mercury></td>
+            </tr>
+            <tr>
+                <td>Venus</td>
+                <td>4.87</td>
+                <td>12,104</td>
+                <td>5243</td>
+                <td>8.9</td>
+                <td>2802.0</td>
+                <td>108.2</td>
+                <td>464</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td><img><venus class="jpg"></venus></td>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>5.97</td>
+                <td>12,756</td>
+                <td>5514</td>
+                <td>9.8</td>
+                <td>24.0</td>
+                <td>149.6</td>
+                <td>15</td>
+                <td>1</td>
+                <td>Our world</td>
+                <td><img><earth class="jpg"></earth></td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>0.642</td>
+                <td>6,792</td>
+                <td>3933</td>
+                <td>3.7</td>
+                <td>24.7</td>
+                <td>227.9</td>
+                <td>-65</td>
+                <td>2</td>
+                <td>The red planet</td>
+                <td><img><mars class="mars"></mars></td>
+            </tr>
+            <tr>
+                <td rowspan="4">Jovian planets</td>
+                <td rowspan="2">Gas giants</td>
+                <td>Jupiter</td>
+                <td>1898</td>
+                <td>142,984</td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td>The largest planet</td>
+                <td><img><jupiter class="jpg"></jupiter></td>
+            </tr>
+            <tr>
+                <td>Saturn</td>
+                <td>568</td>
+                <td>120,536</td>
+                <td>687</td>
+                <td>9.0</td>
+                <td>10.7</td>
+                <td>1433.5</td>
+                <td>-140</td>
+                <td>62</td>
+                <td>&nbsp;</td>
+                <td><img><saturn class="jpg"></saturn></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Ice giants</td>
+                <td>Uranus</td>
+                <td>86.8</td>
+                <td>51,118</td>
+                <td>1271</td>
+                <td>8.7</td>
+                <td>17.2</td>
+                <td>2872.5</td>
+                <td>-195</td>
+                <td>27</td>
+                <td>&nbsp;</td>
+                <td><img><Uranus class="jpg"></Uranus></td>
+            </tr>
+            <tr>
+                <td>Neptune</td>
+                <td>102</td>
+                <td>49,528</td>
+                <td>1638</td>
+                <td>11.0</td>
+                <td>16.1</td>
+                <td>4495.1</td>
+                <td>-200</td>
+                <td>14</td>
+                <td>&nbsp;</td>
+                <td><img><Neptune class="jpg"></Neptune></td>
+            </tr>
+            <tr>
+                <td colspan="2">Dwarf planets</td>
+                <td>Pluto</td>
+                <td>0.0130</td>
+                <td>2376</td>
+                <td>1850</td>
+                <td>0.7</td>
+                <td>153.3</td>
+                <td>5906.4</td>
+                <td>-225</td>
+                <td>5</td>
+                <td></td>
+                <td><img><Pluto class="jpg"></Pluto></td>
+            </tr>
+            </tbody>
+            <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
+                
+                <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
+        
+                <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
+                    
+                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
+                
+                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
+                    
+                <!-- Please note that you do NOT need to add a table footer for this assignment. -->
+            </table>
+        </main>
+    </body>
+</html>
