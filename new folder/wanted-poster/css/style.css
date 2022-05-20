@@ -160,8 +160,16 @@ footer {
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-top: 2rem;
+    border-style: solid none none none;
+    border-top-width: 2rem;
     font-style: solid;
     color: #333;
+}
+
+h4 >span {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
