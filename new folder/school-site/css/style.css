@@ -78,31 +78,108 @@ header, footer {
 
 
 /* Imported Typfaces */
+@font-face {
+    font-family: "josefinslab";
+    src: url(../fonts/josefinslab-regular.tff); format: ('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
-
-
-
+@font-face {
+    font-family: "monserrat";
+    src: url(../fonts/monserrat-regular.tff); format: ('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
 /* Typography Styles */
+html {
+    font-family: monserrat, sans-serif;
+}
 
+h1 { 
+    letter-spacing: .125rem;
+    font-family: josefinslab, serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
 
+h2 {
+    letter-spacing: .125rem;
+    font-family: josefinslab, serif;
+    font-size: 1.5rem;
+}
 
+h2 + p {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
 
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
+p {
+    font-size: .75rem;
+    word-spacing: .125rem;
+}
+
+li {
+    font-size: .75rem;
+    word-spacing: .125rem;
+}
 
 /* Link Styling */
 
+a {
+    outline: none;
+}
 
+a:link {
+    color:#33658A;
+} 
 
+a:visited {
+    color:#33658A;
+}
 
+a:focus {
+    text-decoration-line: none;
+}
 
+a:hover {
+    text-decoration-line: none;
+}
 
 /* List Styling */
 
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style: square;
+}
 
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
+}
 
-
-
+.long-list a:hover {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
 
 /* Navigation Menu */
 
@@ -111,10 +188,9 @@ header, footer {
 
 
 
+
+
 /* Footer Styles */
-
-
-
 
 
 
