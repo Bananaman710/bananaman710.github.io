@@ -47,5 +47,20 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+html {
+    font-size: 16px;
+}
 
 
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1.5rem;
+    width: 90%;
+}
+
+main {
+    overflow:auto;
+}
